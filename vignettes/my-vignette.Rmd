@@ -1,0 +1,44 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(uniquerYC) 
+library(datasets) ## load datasets
+```
+
+
+```{r}
+uniq.col.value(mtcars)
+```
+
+```{r}
+uniq.col.value(iris)
+```
+```{r}
+uniq.col.value(ToothGrowth)
+```
+
+```{r}
+uniq.row.value(mtcars)
+```
+```{r}
+uniq.row.value(iris)
+```
+
+```{r}
+uniq.row.value(ToothGrowth)
+```
+

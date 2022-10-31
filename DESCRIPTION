@@ -1,0 +1,19 @@
+Package: uniquerYC
+Title: Get all unique numbers for columns and rows
+Version: 0.0.0.9000
+Authors@R: person("Yuka", "Chen", ,"yjchen9596@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package has two functions. One is to get the unique values in each columns in a data frame. Another one is to get the unique rows number of a data frame.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    dplyr,
+    rlang
+VignetteBuilder: knitr
